@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --color-primary: #005eac;
+    
+    --color-neutral-50: #f8f9fa;
+    --color-neutral-100: #f4f5f7;
+    --color-neutral-200: #f0f2f4;
+    --color-neutral-300: #e4e7eb;
+    --color-neutral-400: #d1d5db;
+    --color-neutral-500: #9ca3af;
+    --color-neutral-600: #6b7280;
+    --color-neutral-700: #4b5563;
+    --color-neutral-800: #374151;
+    --color-neutral-900: #1f2937;
+
+    --color-error-50: #fef2f2;
+    --color-error-100: #fee2e2;
+    --color-error-200: #fecaca;
+    --color-error-300: #fca5a5;
+    --color-error-400: #f87171;
+    --color-error-500: #ef4444;
+    --color-error-600: #dc2626;
+    --color-error-700: #b91c1c;
+    --color-error-800: #991b1b;
+    --color-error-900: #7f1d1d;
+
+    --color-warning-50: #fffbeb;
+    --color-warning-100: #fef3c7;
+    --color-warning-200: #fde68a;
+    --color-warning-300: #fcd34d;
+    --color-warning-400: #fbbf24;
+    --color-warning-500: #f59e0b;
+    --color-warning-600: #d97706;
+    --color-warning-700: #b45309;
+    --color-warning-800: #92400e;
+    --color-warning-900: #78350f;
+
+    --color-success-50: #f0fdf4;
+    --color-success-100: #dcfce7;
+    --color-success-200: #bbf7d0;
+    --color-success-300: #86efac;
+    --color-success-400: #4ade80;
+    --color-success-500: #22c55e;
+    --color-success-600: #16a34a;
+    --color-success-700: #15803d;
+    --color-success-800: #166534;
+    --color-success-900: #14532d;
+
+    /* Rubik because Bajaj Finserv site uses it */
+    --default-font-family: 'Rubik', sans-serif;
+}
+
+@layer utilities {
+    .container {
+        @apply mx-auto px-4 sm:px-6 lg:px-8;
+    }
+}
